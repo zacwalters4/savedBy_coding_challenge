@@ -50,3 +50,8 @@ main {
     height: 3em;
     margin-top: 1.5em;
 }
+
+.product-image {
+    width: 30vw;
+    aspect-ratio: 1/2;
+}
