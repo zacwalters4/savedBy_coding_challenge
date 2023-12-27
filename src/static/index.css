@@ -1,0 +1,35 @@
+@font-face {
+    font-family: mina;
+    src: url(https://fonts.googleapis.com/css?family=Mina);
+}
+
+* {
+    font-family: mina;
+}
+
+header {
+    height: 5vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #67B6F9;
+}
+
+h1 {
+    margin-left: 25px;
+    font-size: 1.5em;
+}
+
+.cart-button {
+    margin-right: 25px;
+    height: 80%;
+    aspect-ratio: 1/1;
+    background-image: url("shopping-cart.svg");
+    background-size: cover;
+    border: none;
+    background-color: transparent;
+}
