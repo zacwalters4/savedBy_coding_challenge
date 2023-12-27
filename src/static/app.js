@@ -25,6 +25,10 @@ async function setup() {
 
 }
 
+const formatPrice = (price) => {
+	return price / 100
+}
+
 // DOM UPDATING FUNCTIONS
 
 const createProductTile = (product) => {
@@ -33,7 +37,7 @@ const createProductTile = (product) => {
         <div className="product-tile" key="${product.id}">
           <img class="product-image" src="${product.images[0].src}" alt="${product.title} image"/>
           <h3>${product.title}</h3>
-          <p>$${product.price}</p>
+          <p>$${formatPrice(product.price)}</p>
         </div>
 		`
 }
