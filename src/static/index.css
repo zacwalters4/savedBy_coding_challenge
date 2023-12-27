@@ -28,7 +28,7 @@ h1 {
     margin-right: 25px;
     height: 80%;
     aspect-ratio: 1/1;
-    background-image: url("shopping-cart.svg");
+    background-image: url("cart.svg");
     background-size: cover;
     border: none;
     background-color: transparent;
