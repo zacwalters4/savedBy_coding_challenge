@@ -34,7 +34,7 @@ const formatPrice = (price) => {
 const createProductTile = (product) => {
 	productsContainer.innerHTML += 
 		`
-        <div className="product-tile" key="${product.id}">
+        <div class="product-tile" key="${product.id}">
           <img class="product-image" src="${product.images[0].src}" alt="${product.title} image"/>
           <h3>${product.title}</h3>
           <p>$${formatPrice(product.price)}</p>

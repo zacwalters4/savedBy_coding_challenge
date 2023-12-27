@@ -51,7 +51,34 @@ main {
     margin-top: 1.5em;
 }
 
-.product-image {
-    width: 30vw;
+h2 {
+    width: 95%;
+    text-align: left;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.product-tile {
+    width: 35%;
     aspect-ratio: 1/2;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.product-image {
+    width: 90%;
+    aspect-ratio: 2/3;
+    object-fit: cover;
 }
