@@ -1,11 +1,16 @@
 {
-	"name": "interview-project",
+	"name": "savedby-interview-project",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"description": "Take-home project for SavedBy - Build a responsive product page",
+	"main": "src/server/index.js",
 	"scripts": {
 		"start": "node src/server/index.js"
 	},
+	"keywords": [
+		"interview",
+		"frontend",
+		"product-page"
+	],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {

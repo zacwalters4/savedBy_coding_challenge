@@ -2,18 +2,23 @@ window.addEventListener("DOMContentLoaded", setup);
 
 async function setup() {
 	// START HERE
-	// PRODUCTS CAN BE FETCHED USING: GET /products
-	// TODO: Sort the products by price "asc" using the provided `messyFunction()` function.
-	// TODO: Render the sorted products to the page.
+	// API Endpoint: GET /products
+	// Returns: Array of product objects with id, title, price (in cents), and array of images
+	// TODO: Fetch products from the API
+	// TODO: Render the products to the page in a responsive grid
+	// TODO: Sort the products by price (low to high by default)
+	// TODO: Implement search functionality
+	// BONUS: Use the refactored sorting function for dynamic sort order
+	// BONUS: Add error handling for the fetch request
 }
-
 /**
- * Sorts the products by price either in ascending or descending order.
+ * Sorts an array of products by price in ascending or descending order.
  *
  * Your task is to refactor and improve this function:
  * - Make it clean, modern, and readable.
- * - Allow sorting in **either ascending** or **descending** order based on a parameter.
+ * - Allow sorting in either "asc" or "desc" order using the `sortOrder` parameter.
  * - Ensure the output remains the same.
+ * - A plus, but you do not need to use the messyFunction() function.
  *
  * Requirements:
  * - Refactor the code to use modern JavaScript syntax and best practices.
@@ -22,9 +27,9 @@ async function setup() {
  *
  * Feel free to leave comments explaining your thought process.
  *
- * @param {}
- * @param {}
- * @returns {}
+ * @param {Array} products - Array of product objects, each with a `price` property.
+ * @param {string} sortOrder - Either "asc" for ascending or "desc" for descending sort order.
+ * @returns {Array} - A new array of products sorted by price in the specified order.
  */
 function messyFunction(data1, data2) {
 	let t = [];

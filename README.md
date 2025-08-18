@@ -24,9 +24,18 @@ We will be holding a live interview session to add another feature to this proje
 
 ## The Project
 
-Using the boilerplate, develop the product page from the mockup images located in /resources.
-Build the logic that handles fetching and rendering the products.
-Implement a search bar feature for products.
+## Design Reference
+
+- **Desktop mockup**: /resources/Product-desktop.png
+- **Mobile mockup**: /resources/Product-mobile.png
+- Match your UI as closely as possible to these mockups
+
+## What You'll Build
+
+- Complete the HTML structure in the existing index.html file
+- Add product grid, search bar, and responsive layout
+- Style everything in index.css
+- Implement functionality in app.js
 
 ## Prerequisites
 
@@ -42,19 +51,34 @@ Implement a search bar feature for products.
 - Install the dependencies
 - Run `npm start` to start the mock server
 - View your work at localhost:3000
-- ONLY EDIT THE EXISTING FILES LOCATED IN /src/static
+- Build the complete UI within the existing HTML structure in /src/static/index.html
+- The HTML file contains the basic page structure - you'll need to add the product grid, search bar, and layout
 
-## Key Notes:
+## Key Notes and Instructions:
 
 - The API is located at the same host (http://localhost:3000/)
 - Make the product grid mobile responsive. 2 columns on mobile and 3 on desktop. Breakpoint at 430px.
 - Link font from https://fonts.googleapis.com/css?family=Mina
 - Retain all JavaScript logic in the app.js file
 - Retain all CSS in the index.css file
-- Sort products by price (low to high)
+- Display products sorted by price (low to high by default)
 - Overall browser compatibility
 - Match your UI as closely as the mockup as you can
-- Search bar results should filter on input
+- Implement a search bar that filters products by title as the user types
+- Search should be case-insensitive and work in real-time
+
+- **Bonus Challenge:** Refactor the `messyFunction` in `src/static/app.js` to demonstrate code quality skills (can be integrated into your product page if desired)
+
+## API Reference
+
+- **Endpoint**: GET /products
+- **Response**: Array of product objects
+- **Product structure**:
+  - `id`: Unique identifier
+  - `title`: Product name
+  - `price`: Price in cents (e.g., 3199 = $31.99)
+  - `images`: Array with image URLs
+  - `description`: Product description (may be null)
 
 ## HELP!
 
