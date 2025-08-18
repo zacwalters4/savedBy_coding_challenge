@@ -22,20 +22,18 @@ We will be holding a live interview session to add another feature to this proje
 - Mobile-first development (i.e. responsiveness)
 - Resourcefulness
 
-## The Project
-
-## Design Reference
-
-- **Desktop mockup**: /resources/Product-desktop.png
-- **Mobile mockup**: /resources/Product-mobile.png
-- Match your UI as closely as possible to these mockups
-
 ## What You'll Build
 
 - Complete the HTML structure in the existing index.html file
 - Add product grid, search bar, and responsive layout
 - Style everything in index.css
 - Implement functionality in app.js
+  
+## Design Reference
+
+- **Desktop mockup**: /resources/Product-desktop.png
+- **Mobile mockup**: /resources/Product-mobile.png
+- Match your UI as closely as possible to these mockups
 
 ## Prerequisites
 
@@ -78,7 +76,6 @@ We will be holding a live interview session to add another feature to this proje
   - `title`: Product name
   - `price`: Price in cents (e.g., 3199 = $31.99)
   - `images`: Array with image URLs
-  - `description`: Product description (may be null)
 
 ## HELP!
 
